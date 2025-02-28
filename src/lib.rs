@@ -42,6 +42,8 @@ pub enum Tee {
     System,
 
     Tpm,
+
+    Sbom,
 }
 
 #[derive(Clone, Serialize, Deserialize, Debug)]
